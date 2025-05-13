@@ -7,8 +7,8 @@ import asyncio
 import time
 import random
 from colorama import Fore, Back, Style, init
-from tasks.channels import delchanny, crechanny
-from tasks.massban import massban
+from channels import delchanny, crechanny
+from massban import massban
 
 red = Fore.RED
 yellow = Fore.YELLOW
